@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indexing>
+ <object alt="" name="Object1" object_type="ole"/>
+ <object alt="" name="Object2" object_type="ole"/>
+ <object alt="" name="Object3" object_type="ole"/>
+ <object alt="" name="Object8" object_type="ole"/>
+ <object alt="" name="Object4" object_type="ole"/>
+ <object alt="" name="Object7" object_type="ole"/>
+ <object alt="" name="Object13" object_type="ole"/>
+ <object alt="" name="Object10" object_type="ole"/>
+ <object alt="" name="Object11" object_type="ole"/>
+ <object alt="" name="Object9" object_type="ole"/>
+ <object alt="" name="Object12" object_type="ole"/>
+ <object alt="" name="Object14" object_type="ole"/>
+ <object alt="" name="Object6" object_type="ole"/>
+ <object alt="" name="Object16" object_type="ole"/>
+ <object alt="" name="Object15" object_type="ole"/>
+ <object alt="" name="Object5" object_type="ole"/>
+ <object alt="" name="Object17" object_type="ole"/>
+ <object alt="" name="Object18" object_type="ole"/>
+ <object alt="" name="Object19" object_type="ole"/>
+ <object alt="" name="Object20" object_type="ole"/>
+ <object alt="" name="Object21" object_type="ole"/>
+ <object alt="" name="Object22" object_type="ole"/>
+ <object alt="" name="Object23" object_type="ole"/>
+ <object alt="" name="Object24" object_type="ole"/>
+ <object alt="" name="Object25" object_type="ole"/>
+ <object alt="" name="Object26" object_type="ole"/>
+ <object alt="" name="Object27" object_type="ole"/>
+ <object alt="" name="Object28" object_type="ole"/>
+ <object alt="" name="Object29" object_type="ole"/>
+ <object alt="" name="Object30" object_type="ole"/>
+ <object alt="" name="Object31" object_type="ole"/>
+ <object alt="" name="Object32" object_type="ole"/>
+ <object alt="" name="Object33" object_type="ole"/>
+ <object alt="" name="Object34" object_type="ole"/>
+ <object alt="" name="Object36" object_type="ole"/>
+ <object alt="" name="Object37" object_type="ole"/>
+ <object alt="" name="Object35" object_type="ole"/>
+ <object alt="" name="Image2" object_type="graphic"/>
+ <object alt="" name="Image1" object_type="graphic"/>
+ <object alt="" name="Image3" object_type="graphic"/>
+ <object alt="" name="Image4" object_type="graphic"/>
+ <object alt="" name="Image5" object_type="graphic"/>
+ <object alt="" name="Image6" object_type="graphic"/>
+ <object alt="" name="Image7" object_type="graphic"/>
+ <object alt="" name="Image8" object_type="graphic"/>
+ <object alt="" name="Image9" object_type="graphic"/>
+ <object alt="" name="Image10" object_type="graphic"/>
+ <object alt="" name="Image11" object_type="graphic"/>
+ <object alt="" name="Image12" object_type="graphic"/>
+ <object alt="" name="Image13" object_type="graphic"/>
+ <object alt="" name="Image14" object_type="graphic"/>
+ <object alt="" name="Image15" object_type="graphic"/>
+ <object alt="" name="Image16" object_type="graphic"/>
+ <object alt="" name="Image17" object_type="graphic"/>
+ <object alt="" name="Image18" object_type="graphic"/>
+ <object alt="" name="Image19" object_type="graphic"/>
+ <object alt="" name="Image20" object_type="graphic"/>
+ <object alt="" name="Image21" object_type="graphic"/>
+ <paragraph index="183" node_type="writer">CO2020 – Computer Aided Numerical Methods II</paragraph>
+ <paragraph index="184" node_type="writer">HomeWork 6</paragraph>
+ <paragraph index="185" node_type="writer">Hyperbolic PDEs</paragraph>
+ <paragraph index="187" node_type="writer">Ishaan Jain</paragraph>
+ <paragraph index="188" node_type="writer">CO21BTECH11006</paragraph>
+ <paragraph index="190" node_type="writer">Ans 1.</paragraph>
+ <paragraph index="192" node_type="writer">where for </paragraph>
+ <paragraph index="193" node_type="writer">(a) Explicit euler FTCS scheme:</paragraph>
+ <paragraph index="194" node_type="writer">Let’s say,is the numerical solution:</paragraph>
+ <paragraph index="199" node_type="writer">andis the exact solution:</paragraph>
+ <paragraph index="204" node_type="writer">On subtracting these equations, we get</paragraph>
+ <paragraph index="207" node_type="writer">The error is assumed to be of the form, substituting this,</paragraph>
+ <paragraph index="210" node_type="writer">We have to check for the values where </paragraph>
+ <paragraph index="216" node_type="writer">Here when the equality holds,which is can’t be a solution.</paragraph>
+ <paragraph index="217" node_type="writer">So, the equation is unconditionally unstable.</paragraph>
+ <paragraph index="218" node_type="writer">(b) Lax method:</paragraph>
+ <paragraph index="220" node_type="writer">Let’s say,is the numerical solution:</paragraph>
+ <paragraph index="225" node_type="writer">andis the exact solution:</paragraph>
+ <paragraph index="230" node_type="writer">On subtracting these equations, we get</paragraph>
+ <paragraph index="233" node_type="writer">The error is assumed to be of the form, substituting this,</paragraph>
+ <paragraph index="236" node_type="writer">We have to check for the values where </paragraph>
+ <paragraph index="245" node_type="writer">Hence, the Von Neumann stability analysis concludes that the Lax method is cconditionally stable with the condition being</paragraph>
+ <paragraph index="247" node_type="writer">Ans 2. </paragraph>
+ <paragraph index="249" node_type="writer">While using the lax method,</paragraph>
+ <paragraph index="250" node_type="writer">(a) when CFL number is 0.99, we get the follwing profiles of density, velocity and pressure when plotted against x at different time steps.</paragraph>
+ <paragraph index="251" node_type="writer">                   </paragraph>
+ <paragraph index="281" node_type="writer"> </paragraph>
+ <paragraph index="285" node_type="writer">(b) When CFL = 0.3, we get the following profiles: </paragraph>
+ <paragraph index="286" node_type="writer">				                                                    </paragraph>
+ <paragraph index="302" node_type="writer">	</paragraph>
+ <paragraph index="324" node_type="writer"> </paragraph>
+ <paragraph index="344" node_type="writer">We can observe that the plots for CFL = 0.99 are less stable than CFL = 0.3. The reason is that in the first question itself, we derived that the CFL should be less than or equal to 1. As 0.99 is much closer to 0.3, so the solution when </paragraph>
+ <paragraph index="345" node_type="writer">CFL = 0.99 should have more discontinuity, which is evident from the plots. So, decreasing CFL number results in more stability.</paragraph>
+</indexing>
